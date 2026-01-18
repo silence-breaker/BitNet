@@ -56,8 +56,8 @@ size_t quantize_i2_s(const float * src, void * dst, int64_t nrow, int64_t n_per_
         max = fmax(max, (double)fabs((double)src[i]));
     }
     double i2_scale = max;
-
-    uint8_t* q8 = (uint8_t*)malloc(n * sizeof(uint8_t));
+    //找出最大的缩放因子i2_scale
+    uint8_t* q8 = (uint8_t*)malloc(n * sizeof(uint8_t));//开辟矩阵空间
     for (int i=0; i<n; i++) {
         if (fabs((double)(src[i])) < 1e-6) {
             q8[i] = 1;

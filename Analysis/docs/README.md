@@ -11,6 +11,7 @@
 5. [模型转换工具](./05-model-conversion.md)
 6. [代码生成系统](./06-codegen.md)
 7. [构建系统](./07-build-system.md)
+8. [BitNet.cpp 优化后 CPU 推理性能分析报告](./BitNet.cpp优化后CPU推理性能分析报告.md)
 
 ---
 
@@ -25,3 +26,4 @@
 | [模型转换工具](./05-model-conversion.md) | HuggingFace到GGUF的转换流程 |
 | [代码生成系统](./06-codegen.md) | TL1/TL2内核代码生成器 |
 | [构建系统](./07-build-system.md) | CMake配置和编译流程 |
+| [BitNet.cpp 优化后 CPU 推理性能分析报告](./BitNet.cpp优化后CPU推理性能分析报告.md) | 详细的性能测试数据和分析结论 |
